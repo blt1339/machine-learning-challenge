@@ -165,9 +165,10 @@ The following features were utilized for our best score for K-Nearnest Neighbor 
   |               | BeforeCV           |       Grid        |    Best Params    |
   |:-------------:|:------------------:|:-----------------:|:-----------------:|
   |Training Score | 0.9099752050352852 | 1.0               | 1.0               |
-  |Testing Score  | 0.8838672768878718 | 0.8878718535469108| 0.8878718535469108 |                     
+  |Testing Score  | 0.8838672768878718 | 0.8878718535469108| 0.8878718535469108|                     
 
 ### Best Params
+'leaf_size': 10, 'metric': 'euclidean', 'n_neighbors': 25, 'p': 1, 'weights': 'distance'
 ### Classification Report
                 precision    recall  f1-score   support
 
@@ -250,4 +251,4 @@ FALSE POSITIVE       0.98      1.00      0.99       853
 ![SVM Plot](Images/SVM_plot.png)
 
 # Summary
-The final models for all three types were able to achieve a score over 0.85.  The model that took the most work was the K-Nearest Neighbor model.    The other two models achieved that score using all of the features.   But it took reducing the features for the KNN to achieve the desired score.  The SVM Model gained the most score increase by utilzing the search grid. The score for that model started out below .85 but increased over that threshold via tuning.
+The final models for all three types were able to achieve a score over 0.85.  The model that took the most work was the K-Nearest Neighbor model.    The other two models achieved that score using all of the features.   But it took reducing the features for the KNN to achieve the desired score.  The SVM Model gained the most score increase by utilzing the search grid. The score for that model started out below .85 but increased over that threshold via tuning.  The Random Forest model achieved the highest score overall of 0.8953089244851259. 
