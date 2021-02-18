@@ -83,7 +83,7 @@ All of the search grids and best param models are stored in the directory 'model
 * model_random_forest.sav
 
 # Models
-For all models, I started using all features.   For the random forest model and the SVM model.   But that did not give a good enough score for the K-Nearest Neighbor Model.   I was able to come up with a list of features that did allow a score greater than .85 for the KNN model and also produced the best score for the Random Forest Model but using all features generated the better score for the SVM Model
+For all models, I started using all features.   For the random forest model and the SVM model this generated a score over 85%.   But that did not give a good enough score for the K-Nearest Neighbor Model.   I was able to come up with a list of features that did allow a score greater than .85 for the KNN model and also produced the best score for the Random Forest Model but using all features generated the best score for the SVM Model
 
 ## Random Forest Model
 Using all features generated the following scores:
